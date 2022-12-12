@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CropMarker">
+        <attr name="enabled" format="boolean" />
+        <attr name="minSize" format="dimension" />
+        <attr name="aspectRatio" format="float" />
+        <attr name="left" format="dimension" />
+        <attr name="top" format="dimension" />
+        <attr name="right" format="dimension" />
+        <attr name="bottom" format="dimension" />
+        <attr name="overlayColor" format="color" />
+        <attr name="mask" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+        <attr name="markerStrokeColor" format="color" />
+        <attr name="markerStrokeWidth" format="dimension" />
+        <attr name="markerStrokeDashWidth" format="dimension" />
+        <attr name="markerStrokeDashGap" format="dimension" />
+        <attr name="touchHandleDrawable" format="reference" />
+        <attr name="touchHandleDrawableAnchorX" format="fraction" />
+        <attr name="touchHandleDrawableAnchorY" format="fraction" />
+        <attr name="touchHandleStrokeColor" format="color" />
+        <attr name="touchHandleStrokeWidth" format="dimension" />
+        <attr name="touchHandleStrokeLength" format="dimension" />
+        <attr name="touchHandleStrokeInset" format="dimension" />
+        <attr name="touchThreshold" format="dimension" />
+        <attr name="gridLines" format="integer" />
+        <attr name="gridLinesColor" format="color" />
+        <attr name="gridLinesWidth" format="dimension" />
+        <attr name="gridLinesDashWidth" format="dimension" />
+        <attr name="gridLinesDashGap" format="dimension" />
+        <attr name="gridLinesBehavior" format="enum">
+            <enum name="none" value="0" />
+            <enum name="touch" value="1" />
+            <enum name="always" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

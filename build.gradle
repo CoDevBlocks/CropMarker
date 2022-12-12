@@ -1,0 +1,6 @@
+plugins {
+    id 'com.android.library' version '7.3.1' apply false
+}
+
+rootProject.group = "com.codevblocks.android"
+rootProject.version = "1.0.0"
