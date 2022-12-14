@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.library' version '7.3.1' apply false
+    id 'io.github.gradle-nexus.publish-plugin' version '1.1.0' apply false
 }
 
 rootProject.group = "com.codevblocks.android"
 rootProject.version = "1.0.0"
+
+apply from: "${rootDir}/maven/publish.gradle"
